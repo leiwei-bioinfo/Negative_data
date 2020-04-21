@@ -38,6 +38,6 @@ chr1.43285942.A.T       10,10,+ 0,20,-  4,5,+   0,8,Unknown     0,5,Unknown
 chr17.5378413.T.C       40,32,+ 0,15,-  17,31,+ 0,20,-  3,20,Unknown
 chr17.5378249.C.A       5,100,+ 0,20,Unknown    0,30,Unknown    0,100,Unknown   0,150,-
 
-For samples with "unknown" status, additional coverage is recommended to determine the mutation's actual status in that sample.
+For samples with "unknown" status, additional coverage is recommended to determine the mutation's actual status in that sample. 
 
 
