@@ -32,11 +32,14 @@ options:
 -o output file path (optional, default is input.'_ReEval_NegStatus'
 -p the p value cutoff for rejecting the null hypothesis that a non-positive sample may contain the same frequency of mutant reads as one of the positive samples (optional, default is 0.05)
 
-#output
+#Output
+
 The program will output a file containing the updated mutation status:
-positive ("+"): the program will not modify any existing positive or generating any new positive status;
-negative("-"): re-assigned by the program;
-unknown("unknown"): re-assigned by the program. 
+* positive ("+"): the program will not modify any existing positive or generating any new positive status;
+
+* negative("-"): re-assigned by the program;
+
+* unknown("unknown"): re-assigned by the program. 
 
 Example output using the above input:
 
