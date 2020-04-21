@@ -30,7 +30,8 @@ The first column is a list of mutant unique id (for example, "chr.position.refer
 #Running the code
 
     ./MSN.pl -i Example_data/input_example.txt -o output.txt -p_cutoff 0.05
-options:
+Options:
+
     -i input file path (required)
     -o output file path (optional, default is input.'_ReEval_NegStatus'
     -p the p value cutoff for rejecting the null hypothesis that a non-positive sample may contain the same frequency of mutant reads as one of the positive samples (optional, default is 0.05)
