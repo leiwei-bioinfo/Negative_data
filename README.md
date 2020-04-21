@@ -15,6 +15,7 @@ An example is provided in the provided file "input_example.txt".
 Example input:
 Mutation        sample1 sample2 sample3 sample4 sample5
 chr1.43285942.A.T       10,10,+ 0,20,   4,5,+   0,8,    0,5,
+
 chr17.5378413.T.C       40,32,+ 0,15,   17,31,+ 0,20,   3,20,
 chr17.5378249.C.A       5,100,+ 0,20,   0,30,   0,100,  0,150,
 The first column is a list of mutant unique id (for example, "chr.position.reference allele.mutant allele"), then each of the rest columns represents a sample. For any mutation in a given sample, the following information is included: 1) the number of mutant reads; 2) the number of reference/wildtype reads; 3) whether the sample has a positive status for that mutation, as indicated by a plus sign "+". No sign is need for any non-positive samples. For example, "5,100,+" means there are 5 mutant reads,  100 wildtype reads, and the mutation is considered as positive in that sample.  Please note, all included mutations should be positive in at least one of the samples.
