@@ -13,10 +13,9 @@ Before running this current program, we assume the users have finished mutation 
 
 An example is provided in the provided file "input_example.txt". 
 Example input:
+
 Mutation        sample1 sample2 sample3 sample4 sample5
-
 chr1.43285942.A.T       10,10,+ 0,20,   4,5,+   0,8,    0,5,
-
 chr17.5378413.T.C       40,32,+ 0,15,   17,31,+ 0,20,   3,20,
 
 chr17.5378249.C.A       5,100,+ 0,20,   0,30,   0,100,  0,150,
