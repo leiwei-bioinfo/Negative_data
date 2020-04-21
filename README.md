@@ -1,9 +1,9 @@
 # Negative_data
 An adaptive method of defining negative mutation status for multi-sample comparison using next-generation sequencing
 
-CONTACT: Lei.Wei@roswellpark.org
-
 Copyright (c) 2020 by Roswell Park Cancer Institue. #########################################################
+
+Questions? Lei.Wei@roswellpark.org
 
 #Background
 Cancer-related somatic mutations can be measured using next-generation sequencing (NGS). For a specific mutation in a given sample, a NGS test may yield three possible statuses: positive, negative, or unknown due to low covearge. We propose an adaptive mutation-specific negative (MSN) method to improve the classification of negative and unknown mutation statuses in the comparison of multiple "related" tumor samples of the same patient. This document provides information on how to run MSN to differentiate "unknown" from "negative" statuses in a number of "related" tumor samples from the same patient. This method also works on measurement of other samples containing tumor cells or tumor DNA, such as circulating tumor cells (CTCs) and circulating tumor DNA (ctDNA).
