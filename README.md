@@ -51,6 +51,6 @@ chr17.5378413.T.C       40,32,+     0,15,-          17,31,+         0,20,-      
 
 chr17.5378249.C.A       5,100,+     0,20,Unknown    0,30,Unknown    0,100,Unknown   0,150,-
 
-For samples with "unknown" status, additional coverage is recommended to determine the mutation's actual status in that sample. 
+In the above example, the first mutation "chr1.43285942.A.T" was determined to be negative in sample2 (0,20,-), but unknown in sample4(0,8,Unknown) and sample5(0,5,Unknown). For samples with "unknown" status, additional coverage is recommended to determine the mutation's actual status in that sample. 
 
 
