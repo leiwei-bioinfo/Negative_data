@@ -43,13 +43,13 @@ The program will output a file containing the updated mutation status:
 
 Example output using the above input:
 
-Mutation                sample1     sample2         sample3         sample4         sample5
+    Mutation                sample1     sample2         sample3         sample4         sample5
 
-chr1.43285942.A.T       10,10,+     0,20,-          4,5,+           0,8,Unknown     0,5,Unknown
+    chr1.43285942.A.T       10,10,+     0,20,-          4,5,+           0,8,Unknown     0,5,Unknown
 
-chr17.5378413.T.C       40,32,+     0,15,-          17,31,+         0,20,-          3,20,Unknown
+    chr17.5378413.T.C       40,32,+     0,15,-          17,31,+         0,20,-          3,20,Unknown
 
-chr17.5378249.C.A       5,100,+     0,20,Unknown    0,30,Unknown    0,100,Unknown   0,150,-
+    chr17.5378249.C.A       5,100,+     0,20,Unknown    0,30,Unknown    0,100,Unknown   0,150,-
 
 In the above example, the first mutation "chr1.43285942.A.T" was determined to be negative in sample2 (0,20,-), but unknown in sample4(0,8,Unknown) and sample5(0,5,Unknown). For samples with "unknown" status, additional coverage is recommended to determine the mutation's actual status in that sample. 
 
