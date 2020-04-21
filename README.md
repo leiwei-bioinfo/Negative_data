@@ -12,9 +12,11 @@ Cancer-related somatic mutations can be measured using next-generation sequencin
 Before running this current program, we assume the users have finished mutation calling using any somatic mutation caller. Then the mutations from all "related" samples of the same patient need to be combined into a list of unique mutations, and each mutation has been measured in all "related" samples to extract the numbers of mutant and wildtype reads using any appropriate program such as the SAMtools pileup function. The user also need to identify positive samples using any standard that they selected (e.x. by a minimum number of mutant reads, or a minimum VAF etc). The final input data to the MSN program is a data matrix containing the counts of mutant and wildtype reads of every mutation in all "related" samples. 
 
 An example is provided in the provided file "input_example.txt". 
+
 Example input:
 
 Mutation        sample1 sample2 sample3 sample4 sample5
+
 chr1.43285942.A.T       10,10,+ 0,20,   4,5,+   0,8,    0,5,
 
 chr17.5378413.T.C       40,32,+ 0,15,   17,31,+ 0,20,   3,20,
@@ -37,9 +39,13 @@ negative("-"): re-assigned by the program;
 unknown("unknown"): re-assigned by the program. 
 
 Example output using the above input:
+
 Mutation        sample1 sample2 sample3 sample4 sample5
+
 chr1.43285942.A.T       10,10,+ 0,20,-  4,5,+   0,8,Unknown     0,5,Unknown
+
 chr17.5378413.T.C       40,32,+ 0,15,-  17,31,+ 0,20,-  3,20,Unknown
+
 chr17.5378249.C.A       5,100,+ 0,20,Unknown    0,30,Unknown    0,100,Unknown   0,150,-
 
 For samples with "unknown" status, additional coverage is recommended to determine the mutation's actual status in that sample. 
